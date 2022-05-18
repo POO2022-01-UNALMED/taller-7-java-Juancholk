@@ -7,7 +7,7 @@ public class Tesis extends Escrito{
     private String referencias;
     private String interpretacion;
 
-    public Tesis(String origen,String titulo, int paginas, String idea, String conclusion, String referencias, String interpretacion, String origen, String titulo, String autor, int paginas) {
+    public Tesis(String idea, String conclusion, String referencias, String interpretacion, String origen, String titulo, String autor, int paginas) {
         super(origen, titulo, autor, paginas);
         this.idea = idea;
         this.conclusion = conclusion;
